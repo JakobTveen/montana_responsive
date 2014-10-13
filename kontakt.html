@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>contacts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+ 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<script type="text/javascript" src="js/include_script.js"></script>
+  	<!--[if lt IE 9]>
+    
+	   	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <link href="css/ie.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47980818-1', 'montanas.dk');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<!--content wrapper-->
+	<div id="wrapper">
+		<section>
+			<div class="dynamicContent">
+     
+                <div class="row">
+                <div class="span4">
+                 <div class="g_map">
+                    <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Skovvej+1,+8410+Ronde,+Denmark&amp;aq=0&amp;oq=skovvej+1,+8410&amp;sll=29.35618,-116.061789&amp;sspn=47.126884,93.076172&amp;ie=UTF8&amp;hq=&amp;hnear=Skovvej+1,+8410+R%C3%B8nde,+Denmark&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                  </div>
+                </div>
+                <div class="span3">
+                 <h2>find os</h2>
+                 <p class="p2">
+                  Jakob Tveen Andersen, Kitte Borup<br>Skovvej 1, Thorsager<br>8410 Rønde
+                 </p>
+                  <div class="cont_info">
+
+<p class="">
+                       <span class="width1">Jakob:</span> +45 2825 3120 <br>
+                      <span class="width1">Kitte:</span> +45 2621 3072 <br>
+                      <span>E-mail:</span> <!--email_off--><a href="#" class="link_1 animate">jakobtveen@gmail.com</a><!--/email_off-->
+</p>
+
+                  </div>
+                </div>
+                <div class="span5">
+                  <h2 class="">skriv til os</h2>
+                  <form id="contact-form">
+                    <div class="success-message">Besked sendt!<br>
+                  <strong>Vi skriver snart tilbage.</strong></div>
+                    <label class="name mar_r_1">
+                      <input type="text" placeholder="Navn:" data-constraints="@Required @JustLetters" />
+                      <span class="empty-message">*Dette felt skal udfyldes.</span>
+                      <span class="error-message">*Det er ikke et gyldigt navn.</span>
+                    </label>
+                   
+                    <label class="email">
+                      <input type="text" placeholder="E-mail:" data-constraints="@Required @Email" />
+                      <span class="empty-message">*Dette felt skal udfyldes.</span>
+                      <span class="error-message">*Det er ikke en gyldig e-mail adresse.</span>
+                    </label>
+
+
+    
+
+                    <label class="message">
+                      <textarea placeholder="Besked:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                      <span class="empty-message">*Dette felt skal udfyldes..</span>
+                      <span class="error-message">*Beskeden er lidt for kort.</span>
+                    </label>
+                    <div class="clear"></div>
+                    <div class="btns">
+                      <a href="#" data-type="reset" class="btn btn-link animate">Slet alt</a>
+                      <a href="#" data-type="submit" class="btn btn-link  animate">Send</a> 
+                    </div>  
+                  </form>
+                </div>
+                </div>
+
+
+                  
+                   
+            </div>
+		</section>
+	</div>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+ <script>
+    jQuery('#contact-form').TMForm({ownerEmail:'jakobtveen@gmail.com'})
+  </script> 
+   
+</body>
+</html>
